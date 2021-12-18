@@ -12,9 +12,10 @@ function App() {
 <br/>
 <img src="/imageInPublic.jpg" alt= "imageInPublic" />
 <img src={myWonderfulImage} alt ='imageInSrc' />
- <div style={{width:320, height:240}}controls="controls"/>
- <video src="/video.mp4" alt="video"  />
+ <video style={{width:320, height:240}}controls="controls"/>
+ <source src="/video.mp4" alt="video"  />
 </div>
+
  );
 }
 
